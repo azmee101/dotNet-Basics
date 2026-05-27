@@ -13,7 +13,6 @@ app.MapGet("/todo", (HttpContext context) =>{
     return Results.Ok(todo);
 });
 
-
 app.MapPost("/todoquery", (string title) =>{
     if(string.IsNullOrWhiteSpace(title)){
         return Results.BadRequest("Todo title can not be empty");
