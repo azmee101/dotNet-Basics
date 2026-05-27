@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "63CuqAaHog/Xi3e7NbucP9WOIySQKWRU6ahd2E2D0Qc=",
+  "Source": "customTCP",
+  "BasePath": "_content/customTCP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
