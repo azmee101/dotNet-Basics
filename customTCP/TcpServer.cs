@@ -29,6 +29,6 @@ public class TcpServer
         var messageLength = await stream.ReadAsync(incomingData);
         var clientMessage = Encoding.UTF8.GetString(incomingData, 0, messageLength);
         Console.WriteLine(clientMessage);
-        client.Close();
+        client.Close(); 
     }
 }
