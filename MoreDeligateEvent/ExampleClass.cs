@@ -1,6 +1,5 @@
 public delegate void Operation(int num1, int num2);
 public delegate int Mathmetical(int num1, int num2);
-
 public class Calculator
 {
     public static void Sum(int a, int b) => Console.WriteLine($"Summation is {a+b}");
