@@ -1,0 +1,6 @@
+@WebAppScrach_HostAddress = http://localhost:5189
+
+GET {{WebAppScrach_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
