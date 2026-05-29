@@ -487,11 +487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/hdd/Desktop/dotNet-Basics/DeligateAndEvent/Deligate.csproj",
-      "projectName": "Deligate",
-      "projectPath": "/mnt/hdd/Desktop/dotNet-Basics/DeligateAndEvent/Deligate.csproj",
+      "projectUniqueName": "/mnt/hdd/Desktop/dotNet-Basics/MoreDeligateEvent/MoreDeligateEvent.csproj",
+      "projectName": "MoreDeligateEvent",
+      "projectPath": "/mnt/hdd/Desktop/dotNet-Basics/MoreDeligateEvent/MoreDeligateEvent.csproj",
       "packagesPath": "/home/azmee/.nuget/packages/",
-      "outputPath": "/mnt/hdd/Desktop/dotNet-Basics/DeligateAndEvent/obj/",
+      "outputPath": "/mnt/hdd/Desktop/dotNet-Basics/MoreDeligateEvent/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/azmee/.nuget/NuGet/NuGet.Config"

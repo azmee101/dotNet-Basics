@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8bQLgeN2+PE=",
+  "dgSpecHash": "3gSTUFAanUQ=",
   "success": true,
-  "projectFilePath": "/mnt/hdd/Desktop/dotNet-Basics/DeligateAndEvent/Deligate.csproj",
+  "projectFilePath": "/mnt/hdd/Desktop/dotNet-Basics/MoreDeligateEvent/MoreDeligateEvent.csproj",
   "expectedPackageFiles": [
     "/home/azmee/.nuget/packages/microsoft.aspnetcore.openapi/8.0.25/microsoft.aspnetcore.openapi.8.0.25.nupkg.sha512",
     "/home/azmee/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
