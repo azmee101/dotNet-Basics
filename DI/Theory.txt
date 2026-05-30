@@ -1,0 +1,43 @@
+Dependency Inversion Principle (DIP):
+- High-level modules should NOT depend on low-level modules
+- Both should depend on abstractions (interfaces)
+
+✔ High-Level Module:
+   - The caller (business logic)
+   - Example: PaymentService
+
+✔ Low-Level Module:
+   - The actual implementation
+   - Example: EmailService
+
+✔ Abstraction:
+   - Interface that connects both
+   - Example: INotificationService
+
+Inversion of Control (IoC):
+- Dependencies are NOT created inside classes
+- They are provided by an external container (DI Container)
+
+Without IoC:
+   var service = new PaymentService(new EmailService());
+
+With IoC:
+   var service = provider.GetRequiredService<PaymentService>();
+
+Service Lifetimes in Dependency Injection:
+
+1. Singleton
+   - Created once for the entire application lifetime
+   - Same instance is returned every time
+
+2. Transient
+   - New instance is created every time it is requested
+
+3. Scoped
+   - One instance per scope (e.g., per HTTP request in ASP.NET)
+   - Same instance within a scope, different across scopes
+
+Quick Summary:
+DIP → Structure your dependencies (use abstraction)
+IoC → Who controls object creation (container)
+DI  → How dependencies are injected (implementation)
